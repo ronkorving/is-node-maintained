@@ -1,0 +1,22 @@
+{
+  "name": "is-node-maintained",
+  "version": "1.0.0",
+  "description": "Checks if a given Node.js version is still maintained",
+  "main": "index.js",
+  "scripts": {
+    "test": "eslint ."
+  },
+  "keywords": [
+    "node",
+    "maintained",
+    "lts"
+  ],
+  "author": "Ron Korving <rkorving@moneytree.jp>",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "4.19.1"
+  },
+  "dependencies": {
+    "semver": "5.5.0"
+  }
+}
